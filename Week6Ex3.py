@@ -6,7 +6,7 @@
 sentence = input('Please enter a sentence: ')
 
 # Remove spaces
-nospace = replace(sentence, ' ', '')
+nospace = sentence.replace(' ', '')
 
 # Count chars and return
 print('The number of characters (excluding spaces) in the sentence is ', nospace.length())
