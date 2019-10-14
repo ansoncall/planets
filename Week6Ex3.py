@@ -8,5 +8,7 @@ sentence = input('Please enter a sentence: ')
 # Remove spaces
 nospace = sentence.replace(' ', '')
 
+chars = nospace.len()
+
 # Count chars and return
-print('The number of characters (excluding spaces) in the sentence is ', nospace.len())
+print('The number of characters (excluding spaces) in the sentence is ', chars)
