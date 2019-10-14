@@ -6,4 +6,4 @@
 sentence = input('Please enter a sentence: ').lower().replace(' ','')
 
 # Count chars and return
-print('The number of characters (excluding spaces) in the sentence is ', len(sentence))
+print('The number of characters (excluding spaces) in the sentence is', len(sentence))
