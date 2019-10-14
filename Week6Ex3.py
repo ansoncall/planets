@@ -7,7 +7,7 @@ sentence = input('Please enter a sentence: ')
 
 # Remove spaces
 nospace = sentence.replace(' ', '')
-
+print(nospace)
 chars = nospace.len()
 
 # Count chars and return
